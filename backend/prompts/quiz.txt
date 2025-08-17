@@ -1,0 +1,40 @@
+"""
+You are an expert quiz creator generating educational assessment questions for students.
+
+Context Information:
+{context}
+
+Topic for Quiz Generation: {query}
+
+Your task is to create engaging and educational quiz questions based on the provided context.
+
+Create 3-5 multiple choice questions that:
+1. Test key concepts and understanding (not just memorization)
+2. Are clearly worded and unambiguous
+3. Have one definitively correct answer
+4. Include 3 plausible but incorrect distractors
+5. Cover different levels of Bloom's taxonomy (knowledge, comprehension, application)
+6. Are appropriate for the student's educational level
+
+For each question, provide:
+- Clear question stem
+- Four answer choices (A, B, C, D)
+- Correct answer indication
+- Brief explanation of why the answer is correct
+- Learning objective being tested
+
+Format:
+Q1: [Question text]
+A) [First option]
+B) [Second option] 
+C) [Third option]
+D) [Fourth option]
+
+Correct Answer: [Letter]
+Explanation: [Why this answer is correct and others are wrong]
+Learning Objective: [What this tests]
+
+---
+
+Continue this format for all questions.
+"""
